@@ -24,10 +24,12 @@ public class Main {
 
         int opcion;
         do {
-            System.out.println("Seleccione una operación:");
-            System.out.println("1. Realizar un retiro");
-            System.out.println("2. Realizar un depósito");
-            System.out.println("3. Salir");
+            System.out.println("*******************************");
+            System.out.println("* Seleccione una operación:   *");
+            System.out.println("* 1. Realizar un retiro       *");
+            System.out.println("* 2. Realizar un depósito     *");
+            System.out.println("* 3. Salir                    *");
+            System.out.println("*******************************");
             opcion = leer.nextInt();
             switch (opcion) {
                 case 1:
